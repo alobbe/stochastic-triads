@@ -83,7 +83,7 @@ By default, the generated data will be saved in the directory `~/stochastic-tria
 If you use this code in your research, please cite it using
 
 ```
-@software{alobbe_2023_7845270,
+@software{alexander_lobbe_2023_7845270,
   author       = {Alexander Lobbe},
   title        = {alobbe/stochastic-triads: Initial Release},
   month        = apr,
