@@ -37,7 +37,8 @@ The recommended way to install is within a virtual environment using python vers
 3. Download and unpack the repo.
     - On Mac/Linux:
     ```
-    curl -L https://github.com/alobbe/stochastic-triads/archive/main.tar.gz | tar -xz
+    mkdir stochastic-triads
+    curl -L https://github.com/alobbe/stochastic-triads/archive/main.tar.gz | tar -xz --strip-components=1 -C ./stochastic-triads
     ```
     - On Windows:
     ```
