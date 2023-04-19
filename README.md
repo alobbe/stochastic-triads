@@ -80,7 +80,7 @@ By default, the generated data will be saved in the directory `~/stochastic-tria
 
 ## Citation
 
-If you use this code in your research, please cite it using
+If you use this code in your research, please cite the archived version using
 
 ```
 @software{alexander_lobbe_2023_7845270,
