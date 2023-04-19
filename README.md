@@ -1,5 +1,7 @@
 # Stochastic Triad Models of Turbulence :trident:
 
+[![DOI](https://zenodo.org/badge/629953029.svg)](https://zenodo.org/badge/latestdoi/629953029)
+
 Simulate stochastic triad models and perform particle filtering, model calibration and forecasting.
 
 Triad models are classical reduced order models of turbulence in fluid dynamics.
@@ -77,4 +79,8 @@ By default, the generated data will be saved in the directory `~/stochastic-tria
 
 ## Citation
 
-If you use this code in your research, please cite it.
+If you use this code in your research, please cite it using
+
+```
+@article{alobbe_2023, title={alobbe/stochastic-triads: Initial Release}, DOI={10.5281/zenodo.7845270}, publisher={Zenodo}, author={Alexander Lobbe}, year={2023}, month={Apr} }
+```
