@@ -82,5 +82,14 @@ By default, the generated data will be saved in the directory `~/stochastic-tria
 If you use this code in your research, please cite it using
 
 ```
-@article{alobbe_2023, title={alobbe/stochastic-triads: Initial Release}, DOI={10.5281/zenodo.7845270}, publisher={Zenodo}, author={Alexander Lobbe}, year={2023}, month={Apr} }
+@software{alobbe_2023_7845270,
+  author       = {Alexander Lobbe},
+  title        = {alobbe/stochastic-triads: Initial Release},
+  month        = apr,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {2023-04-19},
+  doi          = {10.5281/zenodo.7845270},
+  url          = {https://doi.org/10.5281/zenodo.7845270}
+}
 ```
