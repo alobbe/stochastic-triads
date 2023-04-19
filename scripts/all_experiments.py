@@ -27,12 +27,12 @@ from argparse import ArgumentParser
 _here = os.path.dirname(os.path.realpath(__file__))
 
 all_scripts = [
-    # "trajectory_sample",
-    # "trajectory_ensemble",
-    # "stats_moments",
-    # "stats_mean",
-    # "filter",
-    # "filter_error_stats",
+    "trajectory_sample",
+    "trajectory_ensemble",
+    "stats_moments",
+    "stats_mean",
+    "filter",
+    "filter_error_stats",
     "forecast",
 ]
 
