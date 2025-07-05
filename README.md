@@ -6,7 +6,7 @@ Simulate stochastic triad models and perform particle filtering, model calibrati
 
 Triad models are classical reduced order models of turbulence in fluid dynamics.
 
-To learn more about stochastic triad models and why they are useful in fluid dynamics, please refer to the associated research paper *Comparison of Stochastic Parametrization Schemes using Data Assimilation on Triad Models* by Bertrand Chapron, Dan Crisan, Darryl Holm, Oana Lang, Alexander Lobbe, and Etienne Mémin.
+To learn more about stochastic triad models and why they are useful in fluid dynamics, please refer to the associated research paper [*Comparison of Stochastic Parametrization Schemes using Data Assimilation on Triad Models*](https://doi.org/10.1007/978-3-031-40094-0_7) by Bertrand Chapron, Dan Crisan, Darryl Holm, Oana Lang, Alexander Lobbe, and Etienne Mémin.
 
 The code uses Google's excellent [JAX](https://github.com/google/jax) library. It is organized around a performant simulator core that is packaged as a python package named *stochastic_triads*. The ensemble simulations computed by the core are accelerated using the [`jax.jit`](https://github.com/google/jax#compilation-with-jit) (just-in-time compilation) and [`jax.vmap`](https://github.com/google/jax#auto-vectorization-with-vmap) (vectorization) functionalities.
 
